@@ -9,7 +9,7 @@ async function run() {
         // Connect to the MongoDB server
         await client.connect();
         const database = client.db('git-logs'); // Database name
-        const collection = database.collection('your_collection_name'); // Replace with your collection name
+        //const collection = database.collection('your_collection_name'); // Replace with your collection name
 
         // Read data from the collection
         const query = {}; // You can specify a query here if needed
